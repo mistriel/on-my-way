@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_Font_And_View" >
+        
+        <ListPreference
+            android:title="@string/pref_font_punctuation" 
+            android:key="pref_Font"
+            android:defaultValue="SILEOTSR_NIKUD_SHIFTED.TTF"
+            android:summary="@string/pref_font_punctuation_summary"
+            android:entries="@array/fontStyles"
+            android:entryValues="@array/fontStylesValues" >
+        </ListPreference>
+        
+        <ListPreference
+            android:title="@string/pref_font_size" 
+            android:key="PREF_FONT_SIZE"
+            android:defaultValue="24"
+            android:summary="@string/pref_font_size_summary"
+            android:entries="@array/fontSizes"
+            android:entryValues="@array/fontSizes" >
+        </ListPreference>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_Learning_Setting" >
+
+        <ListPreference
+            android:key="pref_LearningFrequency"
+            android:entries="@array/learningFrequency"
+            android:entryValues="@array/learningFrequencyValues"
+            android:summary="@string/pref_learning_frequency_summary"
+            android:title="@string/pref_learning_frequency" >
+        </ListPreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_general_setting" >
+        <CheckBoxPreference
+            android:key="pref_SendReport"
+            android:summary="@string/pref_send_log_report"
+            android:defaultValue="true" >
+        </CheckBoxPreference>
+    
+    </PreferenceCategory>
+        
+
+</PreferenceScreen>

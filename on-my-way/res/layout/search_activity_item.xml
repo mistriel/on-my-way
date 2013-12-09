@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This layout shows an item in the search activity list -->
+<!-- Each item has an icon that shows the preview of the search result, text content -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+   <TextView
+       android:id="@+id/searchResultTitle"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+       android:layout_weight="0"
+       android:ellipsize="end"
+       android:gravity="right"
+       android:linksClickable="true"
+       android:paddingBottom="4dp"
+       android:shadowColor="@color/blueish"
+       android:singleLine="true"
+       android:text="@string/mishnaTitle"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textSize="17dp"
+       android:textStyle="bold" />
+    
+   <TextView
+       android:id="@+id/searchResultContent"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+       android:layout_weight="0"
+       android:ellipsize="end"
+       android:gravity="right"
+       android:singleLine="false"
+       android:text="@string/mishnaContent"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textSize="12dp" />
+   
+</LinearLayout>

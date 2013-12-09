@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="learningFrequency">
+        <item name="1">משנה ליום</item>
+        <item name="2">שתי משניות ליום</item>
+        <item name="3">פרק ליום</item>
+    </string-array>
+	<string-array name="learningFrequencyValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+	
+	<string-array name="fontStyles">
+        <item name="1">Ezra SIL SR</item>
+        <item name="2">Ezra SIL SR (ניקוד מוסט)</item>
+    </string-array>
+    
+	<string-array name="fontStylesValues">
+        <item name="1">SILEOTSR.TTF</item>
+        <item name="2">SILEOTSR_NIKUD_SHIFTED.TTF</item>
+    </string-array>
+	
+	
+	<string-array name="fontSizes">
+	    <item name="1">14</item>
+        <item name="1">18</item>
+        <item name="2">24</item>
+        <item name="3">32</item>
+        <item name="3">48</item>
+        <item name="3">72</item>
+    </string-array>
+    
+</resources>

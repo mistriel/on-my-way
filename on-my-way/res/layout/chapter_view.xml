@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ScrollView
+            android:id="@+id/scroller"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/RelativeLayout1"
+            android:layout_alignParentTop="true"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/myfragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <!--
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:onClick="firstClicked"
+                android:src="@drawable/first" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageButton1"
+                android:onClick="previousClicked"
+                android:src="@drawable/previous" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:onClick="lastClicked"
+                android:src="@drawable/last" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageButton4"
+                android:onClick="nextClicked"
+                android:src="@drawable/next" />
+
+            <TextView
+                android:id="@+id/mishnaNumTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageButton3"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageButton3"
+                android:layout_toRightOf="@+id/imageButton2"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="1"
+                android:textSize="42dp" />
+
+        </RelativeLayout>
+-->  <!-- End of Navigation buttons -->
+    	
+    </RelativeLayout>
+
+</LinearLayout>

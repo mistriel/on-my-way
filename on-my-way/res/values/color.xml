@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="blueish">#3E6C8E</color>
+	<color name="brightBlue">#E5F1F7</color>
+	<color name="header_blue">#86A2C5</color>
+	<color name="header_light_blue">#8F66A4</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+</resources>

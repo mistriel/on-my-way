@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">OnMyWay - משניות</string>
+	<string name="headerTxt">OnMyWay</string>
+	<string name="headerNull"></string>
+	<string name="dedication">לעילוי נשמת אנה חנה בת שושנה</string>
+	
+	
+	<string name="not_available">לא זמין</string>
+	<string-array name="sdarim_array">
+		<item>זרעים</item>
+		<item>מועד</item>
+		<item>נשים</item>
+		<item>נזיקין</item>
+		<item>קדשים</item>
+		<item>טהרות</item>
+	</string-array>
+	<string-array name="tractate_array">
+		<item>ברכות</item>
+		<item>פאה</item>
+		<item>דמאי</item>
+		<item>כלאים</item>
+		<item>שביעית</item>
+		<item>תרומות</item>
+		<item>מעשרות</item>
+		<item>מעשר שני</item>
+		<item>חלה</item>
+		<item>ערלה</item>
+		<item>ביכורים</item>
+		<item>שבת</item>
+		<item>ערובין</item>
+		<item>פסחים</item>
+		<item>שקלים</item>
+		<item>יומא</item>
+		<item>סוכה</item>
+		<item>ביצה</item>
+		<item>ראש השנה</item>
+		<item>תענית</item>
+		<item>מגילה</item>
+		<item>מועד קטן</item>
+		<item>חגיגה</item>
+		<item>יבמות</item>
+		<item>כתובות</item>
+		<item>נדרים</item>
+		<item>נזיר</item>
+		<item>סוטה</item>
+		<item>גיטין</item>
+		<item>קידושין</item>
+		<item>בבא קמא</item>
+		<item>בבא מציעא</item>
+		<item>בבא בתרא</item>
+		<item>סנהדרין</item>
+		<item>מכות</item>
+		<item>שבועות</item>
+		<item>עדיות</item>
+		<item>עבודה זרה</item>
+		<item>אבות</item>
+		<item>הוריות</item>
+		<item>זבחים</item>
+		<item>מנחות</item>
+		<item>חולין</item>
+		<item>בכורות</item>
+		<item>ערכין</item>
+		<item>תמורה</item>
+		<item>כרתות</item>
+		<item>מעילה</item>
+		<item>תמיד</item>
+		<item>מדות</item>
+		<item>קינים</item>
+		<item>כלים</item>
+		<item>אהלות</item>
+		<item>נגעים</item>
+		<item>פרה</item>
+		<item>טהרות</item>
+		<item>מקוואות</item>
+		<item>נדה</item>
+		<item>מכשירין</item>
+		<item>זבים</item>
+		<item>טבול יום</item>
+		<item>ידים</item>
+		<item>עוקצין</item>
+	</string-array>
+	<string name="pickSederTxt">בחר סדר משניות</string>
+	<string name="tractate">מסכת</string>
+	<string name="chapter">פרק</string>
+	<string name="mishna">משנה</string>
+	<string name="loading">טוען...</string>
+
+	<string name="pickMishnaBtnTxt">בחר משנה</string>
+	<string name="pickMishnaBtnExplanation">בחר משנה מסויימת מתוך ששה סדרי משנה</string>
+	
+	<string name="bookmarks">סימניות</string>
+	<string name="pickBookmarksBtnExplanation">בחר אחד מהסימניות של המקומות האחרונים ששמרת</string>
+	
+	<string name="lastPosition">מיקום אחרון</string>
+	<string name="pickLastPositionBtnExplanation">המשך ללמוד מהנקודה האחרונה שהפסקת</string>
+	
+	<string name="dailyLearning">הלימוד היומי</string>
+	<string name="pickDailyLearningBtnExplanation">באפשרותך להצטרף להמונים הלומדים משנה אחת ליום</string>
+	
+	<string name="search">חפש</string>
+	<string name="pickSearchBtnExplanation">חפש טקסט מסוים בששה סדרי משנה</string>
+	
+	<string name="configuration">הגדרות</string>
+	<string name="pickConfigurationBtnExplanation">שנה ושמור הגדרות מרכזיות של האפליקציה</string>
+
+	<!-- Bookmarks -->
+	<string name="menu_save_bookmark">סימניה</string>
+	<string name="noBookmarksFound">-לא נמצאו סימניות-</string>
+	<string name="bookmarkAdded">סימניה נוספה</string>
+	<string name="bookmarkRemoved">סימניה הוסרה</string>
+	
+	<!-- Search Activity -->
+	<string name="search_label">חיפוש</string>
+	<string name="search_hint">הקלד מילות מפתח</string>
+	<string name="search_active_books">בחר סדרי משנה לחיפוש</string>
+	
+	<string name="search_options">אפשרויות חיפוש</string>
+	<string name="search_whole_word">חפש מילה שלמה</string>
+	
+	 
+	<!-- Setting Categories -->
+    
+    <string name="pref_Font_And_View">הגדרות גופן ותצוגה</string>
+    <string name="pref_Learning_Setting">הגדרות לימוד משנה</string>
+    <string name="pref_general_setting">הגדרות כלליות</string>
+	
+     
+	<!-- Setting Definitions -->
+    
+    <string name="pref_font_punctuation">הגדרות גופן</string>
+    <string name="pref_font_punctuation_summary">בחר גופן ואופן הניקוד אם הניקוד מוסט ביחס לאותיות</string>
+    
+    <string name="pref_font_size">גודל גופן</string>
+    <string name="pref_font_size_summary">הגדל או הקטן את גודל הגופן</string>
+    <string name="pref_font_size_dialogBox_">הכנס ערך מספרי בלבד</string>
+    
+    <string name="pref_send_log_report">שלח קבצי לוג</string>
+    <string name="pref_send_log_report_summary">עזור לשפר את האפליקציה על ידי שליחת קבצי לוג במקרה של קריסה</string>
+    
+    <string name="pref_learning_frequency">קצב לימוד יומי</string>
+    <string name="pref_learning_frequency_summary">הגדר את קצב לימודך היומי, על פי השיטות הנהוגות</string>
+    
+    
+    <!-- Place Holdsers -->
+    
+    <string name="mishnaTitle">מסכת ברכות, פרק א</string>
+    <string name="mishnaContent">מֵאֵימָתַי קוֹרִין  אֶת שְׁמַע בְּעַרְבִית. מִשָּׁעָה שֶׁהַכֹּהֲנִים נִכְנָסִים לֶאֱכֹל בִּתְרוּמָתָן , עַד סוֹף הָאַשְׁמוּרָה הָרִאשׁוֹנָה, דִּבְרֵי רַבִּי אֱלִיעֶזֶר. וַחֲכָמִים אוֹמְרִים, עַד חֲצוֹת. רַבָּן גַּמְלִיאֵל אוֹמֵר, עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר . מַעֲשֶׂה שֶׁבָּאוּ בָנָיו מִבֵּית הַמִּשְׁתֶּה, אָמְרוּ לוֹ, לֹא קָרִינוּ אֶת שְׁמַע. אָמַר לָהֶם, אִם לֹא עָלָה עַמּוּד הַשָּׁחַר, חַיָּבִין אַתֶּם לִקְרוֹת. וְלֹא זוֹ בִּלְבַד, אֶלָּא כָּל מַה שֶּׁאָמְרוּ חֲכָמִים עַד חֲצוֹת, מִצְוָתָן עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר. הֶקְטֵר חֲלָבִים וְאֵבָרִים, מִצְוָתָן עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר. וְכָל הַנֶּאֱכָלִין לְיוֹם אֶחָד, מִצְוָתָן עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר. אִם כֵּן, לָמָּה אָמְרוּ חֲכָמִים עַד חֲצוֹת, כְּדֵי לְהַרְחִיק אֶת הָאָדָם מִן הָעֲבֵירָה: </string>
+    <string name="ZRAIIM">זרעים</string>
+    <string name="MOEAD">מועד</string>
+    <string name="NASHIM">נשים</string>
+    <string name="NEZIKIM">נזיקין</string>
+    <string name="KODASHIM">קדשים</string>
+    <string name="TAHAROT">טהרות</string>
+    
+</resources>
+
