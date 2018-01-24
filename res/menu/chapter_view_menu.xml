@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_save_bookmark"
+        android:icon="@drawable/bookmark_diskette"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_save_bookmark"/>
+    <item
+        android:id="@+id/tractate_name_txt"
+        android:showAsAction="withText"
+        />
+
+</menu>
