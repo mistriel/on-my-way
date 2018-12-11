@@ -4,26 +4,23 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 
-public class BaseApplication extends Application
-{
-    private static Context context ; 
+public class BaseApplication extends Application {
+    private static Context context;
     private static Resources appRes;
-    
+
     @Override
-    public void onCreate()
-    {
+    public void onCreate() {
         // TODO Auto-generated method stub
         super.onCreate();
-        
-        context = getApplicationContext() ;
+
+        context = getApplicationContext();
         appRes = getResources();
     }
 
     /**
      * @return the context
      */
-    public static Context getContext()
-    {
+    public static Context getContext() {
         return context;
     }
 
@@ -31,8 +28,7 @@ public class BaseApplication extends Application
     /**
      * @return the appRes
      */
-    public static Resources getAppRes()
-    {
+    public static Resources getAppRes() {
         return appRes;
     }
 

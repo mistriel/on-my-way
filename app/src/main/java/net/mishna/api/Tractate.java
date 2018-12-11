@@ -5,49 +5,46 @@ import java.util.List;
 
 /**
  * This class represents a single Tranctae logic .
- * Means the distribution of Tranctate into chapters and 
- * @author Mistriel
+ * Means the distribution of Tranctate into chapters and
  *
+ * @author Mistriel
  */
 public class Tractate extends Book {
-	
-	private int tranctateOrdinalNumber ;
-	
-	
-	public int getTranctateOrdinalNumber() {
-		return tranctateOrdinalNumber;
-	}
+
+    private int tranctateOrdinalNumber;
 
 
-	public void setTranctateOrdinalNumber(int tranctateOrdinalNumber) {
-		this.tranctateOrdinalNumber = tranctateOrdinalNumber;
-	}
+    public int getTranctateOrdinalNumber() {
+        return tranctateOrdinalNumber;
+    }
 
 
-	List<Mishna> mishnayot = new ArrayList<Mishna>();
+    public void setTranctateOrdinalNumber(int tranctateOrdinalNumber) {
+        this.tranctateOrdinalNumber = tranctateOrdinalNumber;
+    }
 
 
-	public String getTranctateName() {
-		return bookName;
-	}
+    List<Mishna> mishnayot = new ArrayList<Mishna>();
 
 
-	public void setTranctateName(String tranctateName) {
-		bookName = tranctateName;
-	}
+    public String getTranctateName() {
+        return bookName;
+    }
 
 
-	public List<Mishna> getMishnayot() {
-		return mishnayot;
-	}
+    public void setTranctateName(String tranctateName) {
+        bookName = tranctateName;
+    }
 
 
-	public void setMishnayot(List<Mishna> mishnayot) {
-		this.mishnayot = mishnayot;
-	}
-	
-	
-	
+    public List<Mishna> getMishnayot() {
+        return mishnayot;
+    }
+
+
+    public void setMishnayot(List<Mishna> mishnayot) {
+        this.mishnayot = mishnayot;
+    }
 
 
 }

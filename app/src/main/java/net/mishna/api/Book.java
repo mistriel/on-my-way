@@ -2,44 +2,35 @@ package net.mishna.api;
 
 public class Book {
 
-	protected String bookName ;
-	
-	protected int numberOfChapters ; 
-	
-	protected String[] chaptersNames ;
+    protected String bookName;
 
-	
-	
-	
-	public String getBookName()
-	{
-	    return bookName;
-	}
+    protected int numberOfChapters;
 
-	public void setBookName(String bookName)
-	{
-	    this.bookName = bookName;
-	}
+    protected String[] chaptersNames;
 
-	public int getNumberOfChapters()
-	{
-	    return numberOfChapters;
-	}
+    public String getBookName() {
+        return bookName;
+    }
 
-	public void setNumberOfChapters(int numberOfChapters)
-	{
-	    this.numberOfChapters = numberOfChapters;
-	}
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
 
-	public String[] getChaptersNames()
-	{
-	    return chaptersNames;
-	}
+    public int getNumberOfChapters() {
+        return numberOfChapters;
+    }
 
-	public void setChaptersNames(String[] chaptersNames)
-	{
-	    this.chaptersNames = chaptersNames;
-	} 
-	
-	
+    public void setNumberOfChapters(int numberOfChapters) {
+        this.numberOfChapters = numberOfChapters;
+    }
+
+    public String[] getChaptersNames() {
+        return chaptersNames;
+    }
+
+    public void setChaptersNames(String[] chaptersNames) {
+        this.chaptersNames = chaptersNames;
+    }
+
+
 }
